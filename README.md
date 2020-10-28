@@ -60,8 +60,8 @@ Las estrategias disponibles son las siguientes.
 - production
 - streaming
 
-Si no se especifica la estrategía, deployará por defecto "allInOne" ([más información sobre estrategias](https://www.jaegertracing.io/docs/1.20/operator/#deployment-strategies)).
-[Aquí podemos encontrar algunos ejemplos de creación de instancias y despliegue del operador](https://github.com/jaegertracing/jaeger-operator/tree/master/examples)
+Si no se especifica la estrategía, deployará por defecto "allInOne" ([más información sobre estrategias](https://www.jaegertracing.io/docs/1.20/operator/#deployment-strategies)). <br>
+[ejemplos de instancias y despliegue del operador](https://github.com/jaegertracing/jaeger-operator/tree/master/examples)
 
 <br>
 
@@ -171,7 +171,7 @@ Verificamos que la aplicación esté activa
 ```sh
 $ kubectl get pod
 NAME                      READY   STATUS              RESTARTS   AGE
-myapp-85b4f9d75-2p22s     1/1     Running             0          20s
+myapp-85b4f9d75-2p22s     2/2     Running             0          20s
 ```
 
 Le pasaremos algo de tráfico
